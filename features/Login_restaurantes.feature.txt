@@ -11,3 +11,5 @@ Cenário 4: O usuário tenta logar no sistema mas não insere nenhum dado. Logo,
 Cenário 5: O usuário está na tela do "login de restaurante", digita os dados, mas não aperta em "Acessar a conta". Logo, o usuário não é logado.
 
 Cenário 6: O usuário está na tela do "login de restaurante" e fecha o aplicativo/site. Logo, o usuário não é logado.
+
+Cenário 7: O usuário começa digitando "@" no campo do email. Logo, o sistema retorna mensagem de erro e pede para ele inserir corretamente os seus dados.
