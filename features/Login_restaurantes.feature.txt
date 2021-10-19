@@ -1,0 +1,13 @@
+Feature: Login de restaurante
+
+Cenário 1: O usuário acessa sua conta (na área de “login de restaurante”) com sucesso digitando o “email/senha” corretamente.
+
+Cenário 2: Se existe o “email/senha” correspondente dentro do banco de dados do sistema mas como usuário do sistema e não administrador de restaurante. Logo, quando esse usuário tenta logar no “login de restaurante”, o sistema retorna mensagem de erro.
+
+Cenário 3: O usuário tenta logar no sistema mas insere incorretamente as suas credenciais. Logo, o sistema retorna mensagem de erro e pede para ele inserir corretamente os seus dados.
+
+Cenário 4: O usuário tenta logar no sistema mas não insere nenhum dado. Logo, o sistema retorna mensagem de erro e pede para ele inserir corretamente os seus dados.
+
+Cenário 5: O usuário está na tela do "login de restaurante", digita os dados, mas não aperta em "Acessar a conta". Logo, o usuário não é logado.
+
+Cenário 6: O usuário está na tela do "login de restaurante" e fecha o aplicativo/site. Logo, o usuário não é logado.
