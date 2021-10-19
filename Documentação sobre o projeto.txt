@@ -1,0 +1,8 @@
+Grupo: Felipe Lin
+       João Gabriel
+       Lucas Calabria
+       Matheus Machado
+       Vincius Revoredo
+
+
+Grupo responsável por criar os features de restaurantes sobre "Cadastro de restaurante", "Login" e "Notificação de novos pedidos"
