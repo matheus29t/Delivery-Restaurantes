@@ -1,4 +1,5 @@
 Feature: Login de restaurante
+Aluno: Felipe Lin
 
 Cenário 1: O usuário acessa sua conta (na área de “login de restaurante”) com sucesso digitando o “email/senha” corretamente.
 
