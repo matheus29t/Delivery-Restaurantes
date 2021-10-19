@@ -1,6 +1,7 @@
 Feature: Login de restaurante
 Aluno: Felipe Lin
 Login: Fjtl2
+Cadeira: ESS
 
 Cenário 1: O usuário acessa sua conta (na área de “login de restaurante”) com sucesso digitando o “email/senha” corretamente.
 
@@ -15,4 +16,5 @@ Cenário 5: O usuário está na tela do "login de restaurante", digita os dados,
 Cenário 6: O usuário está na tela do "login de restaurante" e fecha o aplicativo/site. Logo, o usuário não é logado. Then foi triste para ele
 
 Cenário 7: O usuário começa digitando "@" no campo do email. Logo, o sistema retorna mensagem de erro e pede para ele inserir corretamente os seus dados.
+
 
