@@ -57,4 +57,4 @@ Scenario: Selecionando uma notificação
     Given Estou na página "Início"
     When Uma notificação de pedido aparece na tela
     And Clico na opção para abrir mais informações
-    Then A notificação é expandida, revelando mais informações
+    Then A notificação é expandida, revelando mais informações do pedido
