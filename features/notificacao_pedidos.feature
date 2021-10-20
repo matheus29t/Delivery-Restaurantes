@@ -39,3 +39,9 @@ Scenario: Perda de conexão inesperada assim que um pedido é feito e antes da e
     When Um usuário faz um pedido
     And a conexão ao sistema é interrompida antes da apresentação da notificação
     Then A notificação é exibida assim que a conexão é re-estabelecida.
+
+Scenario: Fechando uma notificação
+    Given Estou na página "Início"
+    When Uma notificação de pedido aparece na tela
+    And Clico na opção para fechar a notificação
+    Then A notificação desaparece da tela
