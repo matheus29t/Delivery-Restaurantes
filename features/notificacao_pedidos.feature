@@ -33,3 +33,4 @@ Scenario: Notificação quando um usuário realiza um pedido quase ao mesmo temp
     When "João" tenta fazer um novo pedido às 17:50:12 e "Gabriel" tenta cancelar um pedido Às 17:50:14
     Then Vejo uma mensagem referente ao pedido de João na tela
     And após 10 segundos, vejo uma mensagem referente ao cancelamento de Gabriel na tela
+    Then Notificação explode
