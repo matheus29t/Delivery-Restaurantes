@@ -46,3 +46,9 @@ Scenario: Fechando uma notificação
     When Uma notificação de pedido aparece na tela
     And Clico na opção para fechar a notificação
     Then A notificação é removida da tela
+
+Scenario: Mantendo uma notificação na tela
+    Given Estou na página "Início"
+    When Uma notificação de pedido aparece na tela
+    And Clico na opção para manter a notificação
+    Then A notificação é mantida na tela
