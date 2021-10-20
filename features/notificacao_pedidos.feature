@@ -45,4 +45,4 @@ Scenario: Fechando uma notificação
     Given Estou na página "Início"
     When Uma notificação de pedido aparece na tela
     And Clico na opção para fechar a notificação
-    Then A notificação desaparece da tela
+    Then A notificação é removida da tela
