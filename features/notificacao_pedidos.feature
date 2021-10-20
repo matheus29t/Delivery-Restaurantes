@@ -33,3 +33,9 @@ Scenario: Notificação quando um usuário realiza um pedido quase ao mesmo temp
     When "João" tenta fazer um novo pedido às 17:50:12 e "Gabriel" tenta cancelar um pedido Às 17:50:14
     Then Vejo uma mensagem referente ao pedido de João na tela
     And após 10 segundos, vejo uma mensagem referente ao cancelamento de Gabriel na tela
+
+Scenario: Perda de conexão inesperada assim que um pedido é feito e antes da exibição da notificação
+    Given Estou na página "Início"
+    When Um usuário faz um pedido
+    And a conexão ao sistema é interrompida antes da apresentação da notificação
+    Then A notificação é exibida assim que a conexão é re-estabelecida.
